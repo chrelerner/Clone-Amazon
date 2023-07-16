@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <html>
-    <head></head>
+    <head>
+        <title>Clone Amazon</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+    </head>
     <body>
         <header>
             <div class="upper-header">
@@ -25,9 +29,9 @@
                     <button class="all-button">
                         All
                     </button>
-                    <input type="textbox" placeholder="Search Amazon">
+                    <input class="search-bar" type="textbox" placeholder="Search Amazon">
                     <button class="search-button">
-                        <img class="search-icon-inage" src="icons/search_icon.svg">
+                        <img class="search-icon-image" src="icons/search_icon.svg">
                     </button>
                 </div>
                 <div class="right-section">
@@ -56,9 +60,11 @@
                     <div class="cart-div">
                         <div class="cart-image-div">
                             <img class="cart-image" src="icons/cart_icon.png">
-                            <p class="cart-count">
-                                0
-                            </p>
+                            <div class="cart-count-div">
+                                <p class="cart-count">
+                                    0
+                                </p>
+                            </div>
                         </div>
                         <p class="text">
                             Cart
