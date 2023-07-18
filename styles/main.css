@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(220, 220, 220, 0), rgb(220, 220, 220, 1)),
+        url('/backgrounds/main_background.JPG');
+    background-size: cover;
+    max-width: 1500px;
+    width: 90%;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+}
+
+.top-slider-div {
+    height: 250px;
+}
+
+.grid-div {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+
+.grid-object-div {
+    background-color: white;
+    height: 400px;
+    padding: 20px 20px;
+}
+
+.grid-object-div .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider-div {
+    display: flex;
+    height: 200px;
+    background-color: white;
+    max-width: 1420px;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.slider-div .title {
+    font-size: 20px;
+    font-weight: bold;
+}
