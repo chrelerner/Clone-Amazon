@@ -1,0 +1,153 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.level1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55, 71, 90);
+}
+
+.level1 .text {
+    padding: 20px 0px;
+    font-weight: bold;
+    background: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.level1:hover {
+    opacity: 0.9;
+}
+
+.level2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 100px;
+    padding: 40px 0px;
+    background-color: rgb(35, 47, 62);
+    border: none;
+    border-bottom: 1px solid rgb(52, 70, 92);
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-div .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-div .text {
+    color: rgb(221, 221, 221);
+    margin-bottom: 10px;
+    font-size: 14px;
+    max-width: 160px;
+}
+
+.level3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background-color: rgb(35, 47, 62);
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 14px;
+    color: rgb(186, 186, 186);
+}
+
+.amazon-logo-2-div {
+    margin-right: 50px;
+}
+
+.change-language-div {
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+
+.currency-div {
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+
+.country-div {
+    display: flex;
+    column-gap: 5px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+
+.footer-flag {
+    width: 20px;
+    object-fit: contain;
+}
+
+.level4 {
+    display: grid;
+    justify-content: center;
+    grid-gap: 30px;
+    padding: 20px 0px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    background-color: rgb(19, 25, 33);
+}
+
+.level4 .title {
+    color: rgb(221, 221, 221);
+}
+
+.level4 .description {
+    color: rgb(154, 154, 154);
+}
+
+.level5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 25px 0px;
+    background-color: rgb(19, 25, 33);
+    color: rgb(221, 221, 221);
+}
+
+.text-box-div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.yes-or-no-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(43, 120, 253);
+    color: white;
+    border: none;
+    padding: 1px 6px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+.yes-or-no-box .text1 {
+    background-color: white;
+    color: rgb(27, 73, 213);
+    margin: 0px 4px 0px -4px;
+    padding: 0px 2px 0px 2px;
+    border: none;
+    border-radius: 10px;
+}
+
+.yes-or-no-box .text2 {
+    padding-bottom: 2px;
+}
