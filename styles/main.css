@@ -20,7 +20,7 @@ main {
 }
 
 .top-slider-div {
-    height: 250px;
+    height: 230px;
 }
 
 .grid-div {
@@ -31,13 +31,52 @@ main {
 
 .grid-object-div {
     background-color: white;
-    height: 400px;
+    height: 380px;
     padding: 20px 20px;
 }
 
 .grid-object-div .title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.grid-object-div-special-upper {
+    background-color: white;
+    height: 100px;
+    padding: 20px 20px;
+}
+
+.grid-object-div-special-upper .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid-object-div-special-upper .secure-sign-in {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 204, 0);
+    padding: 6px 0px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.grid-object-div-special-lower {
+    background-color: rgb(64, 189, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grid-object-div-special-lower .text {
+    width: 150px;
 }
 
 .slider-div {
