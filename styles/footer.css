@@ -66,6 +66,10 @@ footer {
 
 .amazon-logo-2-div {
     margin-right: 50px;
+    background-image: url('/icons/icon_bundle.png');
+    height: 38px;
+    width: 90px;
+    background-position: 0px -80px;
 }
 
 .change-language-div {
